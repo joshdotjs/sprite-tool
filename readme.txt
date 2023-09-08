@@ -1,0 +1,3 @@
+-Main process is backend
+-Renderer process is frontend
+-preload.js allows us to use Node.js code in the Renderer code.

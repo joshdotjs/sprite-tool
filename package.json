@@ -1,18 +1,10 @@
 {
-  "name": "csv-products",
+  "name": "native-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "csv-parser": "^3.0.0",
-    "nodemon": "^2.0.20"
-  }
+  "author": "Josh Holloway",
+  "license": "ISC"
 }
