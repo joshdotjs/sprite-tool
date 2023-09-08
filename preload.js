@@ -27,5 +27,5 @@ contextBridge.exposeInMainWorld('path', {
 // ========================================================
 
 contextBridge.exposeInMainWorld('josh', {
-  build: () => build(),
+  build: build,
 });

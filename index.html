@@ -1,17 +1,16 @@
 <html>
   <head>
-    <style>
-      *, *::before, *::after  {
-        margin: 0;
-        padding: 0;
-        color: black;
-      }
-    </style>
+    <link rel="stylesheet" href="./libs/bs.min.css">
+    <script src="./libs/bs.bundle.min.js"></script>
   </head>
   <body>
     <h1>JOSH</h1>
 
-    <p></p>
+    <div class="mb-3">
+      <label for="input-num-sprites" class="form-label">Email address</label>
+      <input type="number" id="input-num-sprites" placeholder="num sprites" required>
+    </div>
+    <button id="run-code" class="btn btn-primary rounded-pill px-3" type="button">Primary</button>
 
     <script type="module" src="./render.js">
     </script>

@@ -1,75 +1,851 @@
 
 <svg class="svg-sprite"
   width="600" height="200"
-  viewBox="0 0 1000 200"
+  viewBox="0 0 12000 200"
   xmlns="http://www.w3.org/2000/svg"
 >
 
   <rect class="svg-background" width="100%" height="100%" fill="#E7E9EA" />
 
-  <g class="g-sprite-0" transform="translate(0, 0)">
-    <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+  
+        <g class="g-sprite-0" transform="translate(0, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
-    <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+        <g class="g-sprite-1" transform="translate(200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
-    <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
-    <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+        <g class="g-sprite-2" transform="translate(400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <circle class="head" cx="100" cy="50" r="50" fill="green" />
-  </g>
+        <g class="g-sprite-3" transform="translate(600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-  <g class="g-sprite-1" transform="translate(200, 0)">
-    <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+        <g class="g-sprite-4" transform="translate(800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
-    <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+        <g class="g-sprite-5" transform="translate(1000, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
-    <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
-    <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+        <g class="g-sprite-6" transform="translate(1200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <circle class="head" cx="100" cy="50" r="50" fill="green" />
-  </g>
+        <g class="g-sprite-7" transform="translate(1400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-  <g class="g-sprite-2" transform="translate(400, 0)">
-    <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+        <g class="g-sprite-8" transform="translate(1600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
-    <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+        <g class="g-sprite-9" transform="translate(1800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
-    <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
-    <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+        <g class="g-sprite-10" transform="translate(2000, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <circle class="head" cx="100" cy="50" r="50" fill="green" />
-  </g>
+        <g class="g-sprite-11" transform="translate(2200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-  <g class="g-sprite-3" transform="translate(600, 0)">
-    <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+        <g class="g-sprite-12" transform="translate(2400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
-    <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+        <g class="g-sprite-13" transform="translate(2600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
-    <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
-    <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+        <g class="g-sprite-14" transform="translate(2800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <circle class="head" cx="100" cy="50" r="50" fill="green" />
-  </g>
+        <g class="g-sprite-15" transform="translate(3000, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-  <g class="g-sprite-4" transform="translate(800, 0)">
-    <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+        <g class="g-sprite-16" transform="translate(3200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
-    <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+        <g class="g-sprite-17" transform="translate(3400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
-    <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
-    <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+        <g class="g-sprite-18" transform="translate(3600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
-    <circle class="head" cx="100" cy="50" r="50" fill="green" />
-  </g>
+        <g class="g-sprite-19" transform="translate(3800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-20" transform="translate(4000, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-21" transform="translate(4200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-22" transform="translate(4400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-23" transform="translate(4600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-24" transform="translate(4800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-25" transform="translate(5000, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-26" transform="translate(5200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-27" transform="translate(5400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-28" transform="translate(5600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-29" transform="translate(5800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-30" transform="translate(6000, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-31" transform="translate(6200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-32" transform="translate(6400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-33" transform="translate(6600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-34" transform="translate(6800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-35" transform="translate(7000, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-36" transform="translate(7200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-37" transform="translate(7400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-38" transform="translate(7600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-39" transform="translate(7800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-40" transform="translate(8000, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-41" transform="translate(8200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-42" transform="translate(8400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-43" transform="translate(8600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-44" transform="translate(8800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-45" transform="translate(9000, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-46" transform="translate(9200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-47" transform="translate(9400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-48" transform="translate(9600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-49" transform="translate(9800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-50" transform="translate(10000, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-51" transform="translate(10200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-52" transform="translate(10400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-53" transform="translate(10600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-54" transform="translate(10800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-55" transform="translate(11000, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-56" transform="translate(11200, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-57" transform="translate(11400, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-58" transform="translate(11600, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
+
+        <g class="g-sprite-59" transform="translate(11800, 0)">
+          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
+      
+          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+      
+          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75)" />
+          <rect class="body" x="50" y="75" width="100" height="100" fill="blue" />
+          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta" transform="rotate(25, 50, 75)" />
+      
+          <circle class="head" cx="100" cy="50" r="50" fill="green" />
+        </g>
+      
 
 </svg>
