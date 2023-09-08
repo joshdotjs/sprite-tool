@@ -20,8 +20,8 @@ const NUM_WINDOWS = BrowserWindow.getAllWindows().length;
 
 function createMainWindow() {
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1920,
+    height: 1280,
     // center: true,
     show: false, // don't show until 'ready-to-show' event
     webPreferences: {

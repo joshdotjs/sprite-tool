@@ -1,0 +1,92 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================================== */
+
+:root {
+  --rad: 7px;
+  --controller-size: 50px;
+}
+
+/* =========================================== */
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+/* =========================================== */
+
+main { position:  relative;
+  border: solid black 2px;
+  border-radius: var(--rad);
+  overflow: hidden;
+
+  background: rgba(0, 0, 0, 0.1);
+  padding: var(--controller-size);
+
+  #touch-controller-up,
+  #touch-controller-down,
+  #touch-controller-left,
+  #touch-controller-right { position: absolute;
+    display: grid;
+    place-items: center;
+  }
+
+  #touch-controller-up {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--controller-size);
+  }
+  #touch-controller-down {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: var(--controller-size);
+  }
+  #touch-controller-left {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: var(--controller-size);
+  }
+  #touch-controller-right {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: var(--controller-size);
+  }
+
+  #reset-button { position: absolute;
+    bottom: 16px;
+    right: 16px;
+    padding: 8px 16px;
+    border-radius: 7px;
+    background: white;
+    color: black;
+  } 
+} 
+
+/* =========================================== */
+
+canvas { 
+  background: lightgreen;
+  border-radius: var(--rad);
+}
+
+/* =========================================== */
+
+.touch { position: absolute;
+  background: darkorchid;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* =========================================== */
