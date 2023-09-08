@@ -17,9 +17,12 @@ import { getRandom, getRandomInt, getRandomColor } from "../util/rand.js";
 // const hero_stand_left  = await loadImg('sprite-stand-left.png');
 
 // const hero_stand_right = await loadImg('character-groups.png');
-const hero_stand_right = await loadImg('sprite-sheet.svg');
 // const hero_stand_right = await loadImg('hero-stand-right.png');
 // const hero_stand_right = await loadImg('sprite-stand-right.png');
+
+
+const hero_stand_right = await loadImg('sprite-sheet-stand-right.svg');
+const hero_stand_left = await loadImg('sprite-sheet-stand-left.svg');
 
 // ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 // ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
@@ -84,11 +87,11 @@ export default function newHero({
   const sprites = { // different sprites for each action
     stand: {
       r: hero_stand_right,
-      l: hero_stand_right,
+      l: hero_stand_left,
     },
     run: {
       r: hero_stand_right,
-      l: hero_stand_right,
+      l: hero_stand_left,
     },
   };
   let current_sprite = sprites.stand.r;

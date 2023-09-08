@@ -23,23 +23,25 @@ const build = ({
 
     let sprites = [];
   
+    const genSprite = (i, move_down) => `
+      <g class="g-sprite-${i}" transform="translate(${i * 200}, 0)">
+        <rect class="svg-background" x="0" width="200" height="100%" fill="transparent" />
+    
+        <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+        <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+    
+        <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75) ${move_down}" />
+        <rect class="body" x="50" y="75" width="100" height="100" fill="blue"    transform="${move_down}"/>
+        <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta"  transform="rotate(25, 50, 75)  ${move_down}" />
+    
+        <circle class="head" cx="100" cy="50" r="50" fill="green" transform="${move_down}" />
+      </g>
+    `;
+
     // move down the first half of sprites
     for (let i = 0; i < num_sprites / 2; i++) {
       const move_down = `translate(0, ${i * SHIFT})`;
-      const sprite = `
-        <g class="g-sprite-${i}" transform="translate(${i * 200}, 0)">
-          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
-      
-          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
-          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
-      
-          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75) ${move_down}" />
-          <rect class="body" x="50" y="75" width="100" height="100" fill="blue"    transform="${move_down}"/>
-          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta"  transform="rotate(25, 50, 75)  ${move_down}" />
-      
-          <circle class="head" cx="100" cy="50" r="50" fill="green" transform="${move_down}" />
-        </g>
-      `;
+      const sprite = genSprite(i, move_down);
       sprites.push(sprite);
     }
   
@@ -48,40 +50,82 @@ const build = ({
       // const move_down = `translate(0, ${SHIFT * (HALF_NUM_SPRITES - (i - HALF_NUM_SPRITES))})`;
       // const move_down = `translate(0, ${SHIFT * (HALF_NUM_SPRITES - i + HALF_NUM_SPRITES)})`;
       const move_down = `translate(0, ${SHIFT * (2 * HALF_NUM_SPRITES - i)})`;
-      const sprite = `
-        <g class="g-sprite-${i}" transform="translate(${i * 200}, 0)">
-          <rect class="svg-background" x="0" width="200" height="100%" stroke="black" fill="transparent" />
-      
-          <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
-          <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
-      
-          <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75) ${move_down}" />
-          <rect class="body" x="50" y="75" width="100" height="100" fill="blue"    transform="${move_down}"/>
-          <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta"  transform="rotate(25, 50, 75)  ${move_down}" />
-      
-          <circle class="head" cx="100" cy="50" r="50" fill="green" transform="${move_down}" />
-        </g>
-      `;
+      const sprite = genSprite(i, move_down);
       sprites.push(sprite);
     }
   
     const output = `
-  <svg class="svg-sprite"
-    width="${num_sprites * 200}" height="200"
-    viewBox="0 0 ${num_sprites * 200} 200"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-  
-    <rect class="svg-background" width="100%" height="100%" fill="#E7E9EA" />
-  
-    ${sprites.join('\n')}
-  
-  </svg>
+      <svg class="svg-sprite"
+        width="${num_sprites * 200}" height="200"
+        viewBox="0 0 ${num_sprites * 200} 200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+      
+        <rect class="svg-background" width="100%" height="100%" fill="transparent" />
+      
+        ${sprites.join('\n')}
+      
+      </svg>
   `;
   return output;
   };
 
   const stand_right_sprite_sheet = genStandRightSprites();
+
+  // ==============================================
+
+  const genStandLeftSprites = () => {
+
+    let sprites = [];
+  
+    const genSprite = (i, move_down) => `
+      <g class="g-sprite-${i}" transform="translate(${i * 200}, 0)">
+        <rect class="svg-background" x="0" width="200" height="100%" fill="transparent" />
+    
+        <rect class="leg-l" x="50" y="150" width="25" height="50" fill="orange"  />
+        <rect class="leg-r" x="125" y="150" width="25" height="50" fill="orange" />
+    
+        <rect class="arm-l" x="50" y="75" width="25" height="75" fill="magenta"  transform="rotate(25, 50, 75)  ${move_down}" />
+        <rect class="body" x="50" y="75" width="100" height="100" fill="blue"    transform="${move_down}"/>
+        <rect class="arm-r" x="125" y="75" width="25" height="75" fill="magenta" transform="rotate(-25, 150, 75) ${move_down}" />
+    
+        <circle class="head" cx="100" cy="50" r="50" fill="green" transform="${move_down}" />
+      </g>
+    `;
+
+    // move down the first half of sprites
+    for (let i = 0; i < num_sprites / 2; i++) {
+      const move_down = `translate(0, ${i * SHIFT})`;
+      const sprite = genSprite(i, move_down);
+      sprites.push(sprite);
+    }
+  
+    for (let i = HALF_NUM_SPRITES; i < num_sprites; i++) {
+      // const move_down = `translate(0, ${HALF_NUM_SPRITES * SHIFT - (i - HALF_NUM_SPRITES) * SHIFT})`;
+      // const move_down = `translate(0, ${SHIFT * (HALF_NUM_SPRITES - (i - HALF_NUM_SPRITES))})`;
+      // const move_down = `translate(0, ${SHIFT * (HALF_NUM_SPRITES - i + HALF_NUM_SPRITES)})`;
+      const move_down = `translate(0, ${SHIFT * (2 * HALF_NUM_SPRITES - i)})`;
+      const sprite = genSprite(i, move_down);
+      sprites.push(sprite);
+    }
+  
+    const output = `
+      <svg class="svg-sprite"
+        width="${num_sprites * 200}" height="200"
+        viewBox="0 0 ${num_sprites * 200} 200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+      
+        <rect class="svg-background" width="100%" height="100%" fill="transparent" />
+      
+        ${sprites.join('\n')}
+      
+      </svg>
+  `;
+  return output;
+  };
+
+  const stand_left_sprite_sheet = genStandLeftSprites();
 
   // ==============================================
 
@@ -110,7 +154,8 @@ const build = ({
 
   // ==============================================
 
-  writeToFile('sprite-sheet.svg', stand_right_sprite_sheet);
+  writeToFile('sprite-sheet-stand-right.svg', stand_right_sprite_sheet);
+  writeToFile('sprite-sheet-stand-left.svg',  stand_left_sprite_sheet);
 
   // ==============================================
 
